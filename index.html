@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>فروشگاه طوسی — فروشگاه لوازم خانگی</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand-wrap">
+      <img src="assets/brand-badge.svg" alt="لوگوی فروشگاه طوسی" class="brand-logo" />
+      <a class="brand" href="index.html">فروشگاه طوسی</a>
+    </div>
+    <nav class="nav">
+      <a href="index.html">خانه</a>
+      <a href="products.html">محصولات</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html" class="cta">تماس</a>
+    </nav>
+    <button class="menu-btn" aria-label="نمایش منو">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <img class="hero-img" src="assets/hero-products.png" alt="محصولات" />
+    <div class="hero-content container">
+      <h1>لوازم خانگی با کیفیت — قیمت‌های رقابتی</h1>
+      <p class="muted">ارسال سریع در مشهد — گارانتی و خدمات پس از فروش</p>
+      <p class="hero-actions"><a class="btn" href="products.html">مشاهده محصولات</a> <a class="btn ghost" href="contact.html">سفارش و مشاوره</a></p>
+    </div>
+  </section>
+
+  <section class="products-preview container" id="products-preview">
+    <h2>محصولات منتخب</h2>
+    <div class="grid" id="product-grid"></div>
+  </section>
+
+  <section class="how container">
+    <h2>چطور خرید انجام می‌شود</h2>
+    <ol>
+      <li>محصول را انتخاب کنید و به سبد اضافه کنید.</li>
+      <li>فرم سفارش را پر کنید و آدرس را وارد کنید.</li>
+      <li>به درگاه وصل می‌شوید (Stripe test یا درگاه ایرانی که پیکربندی کنید).</li>
+    </ol>
+  </section>
+
+  <section class="cart-floating" id="cart-floating" aria-hidden="false">
+    <button id="open-cart">سبد خرید (<span id="cart-count">0</span>)</button>
+  </section>
+</main>
+
+<!-- cart modal -->
+<div id="cart-modal" class="cart-modal" aria-hidden="true">
+  <div class="cart-panel">
+    <button class="close-cart" id="close-cart">×</button>
+    <h3>سبد خرید</h3>
+    <div id="cart-items"></div>
+    <div class="cart-summary">
+      <div>مجموع: <strong id="cart-total">0</strong> تومان</div>
+      <a id="checkout-btn" class="btn" href="#">ادامه و پرداخت</a>
+    </div>
+  </div>
+</div>
+
+<script src="shop.js"></script>
+</body>
+</html>

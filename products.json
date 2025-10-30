@@ -1,0 +1,47 @@
+[
+  {
+    "id": "p-fridge-a",
+    "title": "یخچال دو درب مدل A",
+    "price": 12900000,
+    "currency": "IRR",
+    "image": "assets/fridge.svg",
+    "stock": 5,
+    "description": "یخچال با مصرف انرژی بهینه و ظرفیت بالا."
+  },
+  {
+    "id": "p-wash-b",
+    "title": "لباسشویی 8 کیلو مدل B",
+    "price": 9490000,
+    "currency": "IRR",
+    "image": "assets/washer.svg",
+    "stock": 6,
+    "description": "لباسشویی اتوماتیک با برنامه‌های مختلف."
+  },
+  {
+    "id": "p-heater-x",
+    "title": "هیتر برقی مدل X",
+    "price": 850000,
+    "currency": "IRR",
+    "image": "assets/heater.svg",
+    "stock": 10,
+    "description": "هیتر جمع‌وجور برای فضاهای کوچک."
+  },
+  {
+    "id": "p-dish-c",
+    "title": "ماشین ظرفشویی مدل C",
+    "price": 7200000,
+    "currency": "IRR",
+    "image": "assets/dishwasher.svg",
+    "stock": 3,
+    "description": "ظرفشویی با مصرف آب بهینه."
+  },
+  {
+    "id": "p-kettle-100",
+    "title": "چای‌ساز مدل 100",
+    "price": 450000,
+    "currency": "IRR",
+    "image": "assets/kettle.svg",
+    "stock": 15,
+    "description": "چای‌ساز با عملکرد سریع و طراحی زیبا."
+  }
+]
